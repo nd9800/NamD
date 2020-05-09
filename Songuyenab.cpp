@@ -11,7 +11,8 @@ int main()
 	{
 		if(b!=0)
 		{
-			float c = a / b;
+			float c ;
+				c = (float) a / b;
 			printf("ta co thuong cua %d va %d la %f",a, b, c);
 		}else
 		{
